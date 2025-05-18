@@ -1,0 +1,8 @@
+<li id="{{entry.key}}">
+    [{{forloop.index}}] {{ entry.author }}, <strong>{{ entry.title }}</strong>.
+    {% if entry.journal %} <em>{{ entry.journal }}</em>, {% endif %}
+    {{ entry.year }}.
+    {% if entry.pdf %}<a href="{{ entry.pdf }}">[PDF]</a>{% endif %}
+    {% if entry.code %}<a href="{{ entry.code }}">[Code]</a>{% endif %}
+  </li>
+  
