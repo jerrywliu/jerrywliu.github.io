@@ -1,0 +1,93 @@
+{
+  "basics": {
+    "name": "Jerry Liu",
+    "email": "jerrywliu@stanford.edu",
+    "phone": "(650) 223-4006",
+    "location": {
+      "city": "Stanford",
+      "region": "CA"
+    },
+    "summary": "Ph.D. candidate in Computational & Mathematical Engineering at Stanford University."
+  },
+  "education": [
+    {
+      "institution": "Stanford University",
+      "area": "Computational & Mathematical Engineering",
+      "studyType": "Ph.D. Candidate",
+      "startDate": "2022-09",
+      "endDate": "2027-06",
+      "score": "GPA: 4.03",
+      "summary": "Advisor: Chris Ré. DOE Computational Science Graduate Fellowship. Relevant coursework includes PDEs, numerical linear algebra, stochastics, algorithms & optimization."
+    },
+    {
+      "institution": "Duke University",
+      "area": "Mathematics & Computer Science, Minor in Music",
+      "studyType": "B.S.",
+      "startDate": "2018-08",
+      "endDate": "2021-12",
+      "score": "GPA: 3.99",
+      "summary": "Summa Cum Laude; Phi Beta Kappa."
+    }
+  ],
+  "experience": [
+    {
+      "name": "Lawrence Berkeley National Lab, Machine Learning & Analytics",
+      "position": "Research Intern",
+      "location": "Berkeley, CA",
+      "startDate": "2023-06",
+      "endDate": "2023-09",
+      "summary": "Investigated in-context learning for solving differential equations using long-context models. Demonstrated connections to pseudospectral solvers and theoretical explanation for transformer capabilities."
+    },
+    {
+      "name": "Duolingo, Learning AI Lab",
+      "position": "Software Engineer",
+      "location": "Pittsburgh, PA",
+      "startDate": "2022-01",
+      "endDate": "2022-09",
+      "summary": "Enhanced user knowledge models serving 9M DAUs using multilingual LLMs. Implemented model performance visualization and productionized pipelines."
+    },
+    {
+      "name": "Lawrence Livermore National Lab",
+      "position": "Research Intern",
+      "location": "Livermore, CA",
+      "startDate": "2021-06",
+      "endDate": "2021-12",
+      "summary": "Developed interface reconstruction and advection solvers for incompressible Navier-Stokes and multi-material flows."
+    }
+  ],
+  "awards": [
+    {
+      "title": "DOE Computational Science Graduate Fellowship",
+      "date": "2022",
+      "awarder": "Department of Energy"
+    },
+    {
+      "title": "NSF GRFP (declined)",
+      "date": "2022",
+      "awarder": "National Science Foundation"
+    },
+    {
+      "title": "CRA Outstanding Undergraduate Researcher — Honorable Mention",
+      "date": "2022",
+      "awarder": "Computing Research Association"
+    },
+    {
+      "title": "Alex Vasilos Memorial Award",
+      "date": "2022",
+      "awarder": "Duke University",
+      "summary": "For outstanding undergraduate research."
+    },
+    // {
+    //   "title": "Putnam Competition — Top 250",
+    //   "date": "2018",
+    //   "awarder": "MAA",
+    //   "summary": "Top 250 performer in the William Lowell Putnam Mathematical Competition."
+    // },
+    {
+      "title": "Karl Menger Award",
+      "date": "2019",
+      "awarder": "Duke University",
+      "summary": "Outstanding performance in mathematical competition."
+    }
+  ]
+}
