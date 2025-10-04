@@ -36,7 +36,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ### About
 
-I'm a 3rd year PhD student in the Institute of Computational & Mathematical Engineering at Stanford, advised by [Chris Ré](https://cs.stanford.edu/people/chrismre/). I am supported by the [DOE Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). Previously, I completed my undergraduate degrees in Math and Computer Science at Duke, where I was advised by [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/). My path has been shaped by many kind and brilliant researchers, including Jin Yao, [Kenny Weiss](https://kennyweiss.com/), [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/), and [Atri Rudra](https://cse.buffalo.edu/faculty/atri/).
+I'm a 4th year PhD student in the Institute of Computational & Mathematical Engineering at Stanford, advised by [Chris Ré](https://cs.stanford.edu/people/chrismre/). I am supported by the [DOE Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). Previously, I completed my undergraduate degrees in Math and Computer Science at Duke, where I was advised by [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/). My path has been shaped by many kind and brilliant researchers, including Jin Yao, [Kenny Weiss](https://kennyweiss.com/), [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/), and [Atri Rudra](https://cse.buffalo.edu/faculty/atri/).
 
 ### Research Interests
 
