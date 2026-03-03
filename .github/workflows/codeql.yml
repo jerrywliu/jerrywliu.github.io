@@ -12,10 +12,9 @@
 name: "CodeQL Advanced"
 
 on:
-  push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
+  # Keep CodeQL off the critical path for site content updates.
+  # Run it manually or on schedule.
+  workflow_dispatch:
   schedule:
     - cron: "45 4 * * 3"
 
