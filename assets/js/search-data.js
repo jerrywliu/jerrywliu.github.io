@@ -391,16 +391,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-presented-bwler-at-the-theory-of-ai-for-scientific-computing-tasc-workshop-at-colt-where-it-received-the-best-paper-award",
+          title: 'Presented BWLer at the Theory of AI for Scientific Computing (TASC) Workshop at...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-constructing-machine-precision-neural-networks-with-quasi-interpolants-was-selected-for-an-oral-presentation-8-113-at-the-ai-amp-amp-pde-workshop-at-iclr-2026",
+          title: 'Constructing Machine-Precision Neural Networks with Quasi-Interpolants was selected for an oral presentation (8/113)...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-featured-in-a-deixis-profile-on-my-work-at-the-intersection-of-machine-learning-numerics-and-scientific-reasoning",
+          title: 'Featured in a DEIXIS profile on my work at the intersection of machine...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
