@@ -184,6 +184,12 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+    {% if page.show_selected_paper_tldrs and entry.tldr %}
+      <div class="tldr">
+        <span class="tldr-label">TL;DR:</span>
+        {{ entry.tldr | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">

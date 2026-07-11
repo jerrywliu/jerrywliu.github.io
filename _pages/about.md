@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  ML + Numerics @ Stanford ICME & Hazy Lab </a> · DOE CSGF Fellow · <a href="mailto:jerrywliu@stanford.edu">jerrywliu@stanford.edu</a>
+  PhD student at Stanford ICME · Hazy Research · DOE CSGF Fellow · <a href="mailto:jerrywliu@stanford.edu">jerrywliu@stanford.edu</a>
 
 profile:
   align: right
@@ -15,6 +15,7 @@ profile:
   #   <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+show_selected_paper_tldrs: true # shows TLDRs from BibTeX tldr fields for selected papers
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -36,16 +37,10 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ### About
 
-I'm a 4th year PhD student in the Institute of Computational & Mathematical Engineering at Stanford, advised by [Chris Ré](https://cs.stanford.edu/people/chrismre/). I am supported by the [DOE Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). Previously, I completed my undergraduate degrees in Math and Computer Science at Duke, where I was advised by [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/). My path has been shaped by many kind and brilliant researchers, including Jin Yao, [Kenny Weiss](https://kennyweiss.com/), [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/), and [Atri Rudra](https://cse.buffalo.edu/faculty/atri/).
+I'm a 4th year PhD student in the Institute of Computational & Mathematical Engineering at Stanford, advised by [Chris Ré](https://cs.stanford.edu/people/chrismre/). I am supported by the [DOE Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). Previously, I completed my undergraduate degrees in Math and Computer Science at Duke, where I was advised by [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/). My path has been shaped by many kind and brilliant researchers, including [Atri Rudra](https://cse.buffalo.edu/faculty/atri/), [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/), Jin Yao, and [Kenny Weiss](https://kennyweiss.com/).
 
 ### Research Interests
 
-I'm broadly interested in working towards general-purpose machine learning models for science, particularly differential equations.
-Foundation models for language and vision have unlocked powerful new capabilities, but basic questions remain about the effectiveness of foundation models for regression-type tasks and continuous-valued data.
-My recent work investigates the fundamental limitations of existing ML techniques and develops more principled approaches for numerical tasks.
+My recent work studies memory in language models: how knowledge is [encoded in model weights](/publications/#dugan2025constructingefficientfactstoringmlps) and how architectural choices determine what models can remember and at what cost. As LLM workloads become more recall-intensive, I'm interested in the tradeoffs between learning **in weights** and learning **in context**, and in using these insights to build more parameter- and compute-efficient systems.
 
-Some topics I'm interested in:
-
-- **Numerical Precision**: Why do current ML methods struggle with precise numerical operations, and how can we develop better algorithms/architectures?
-- **Generalization**: What's the right notion of generalization in the context of continuous-valued regression tasks (e.g. PDEs)?
-- **Algorithmic Learning**: How can ML methods learn generalizable, algorithmic knowledge directly from data?
+I'm also interested in machine learning for numerical tasks, especially in scientific settings such as differential equations. My previous work examined why standard architectures struggle with [high-precision numerical computation](/publications/#liu2025towards), and developed methods to improve precision in [PDEs](/publications/#liu2025bwler) and [continuous-valued regression](/publications/#deng2026constructing).

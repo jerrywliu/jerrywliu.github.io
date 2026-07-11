@@ -1,19 +1,8 @@
 --
 
-@inproceedings{deng2026constructing,
-  title={Constructing Machine-Precision Neural Networks with Quasi-Interpolants},
-  author={Catherine Deng* and Junmiao Hu* and Milan Rohatgi and Jerry Weihong Liu and Christopher R{\'e}},
-  booktitle={AI{\&}PDE: ICLR 2026 Workshop on AI and Partial Differential Equations},
-  year={2026},
-  note={Oral (8/113 accepted papers)},
-  pdf={https://openreview.net/pdf?id=0aDlV2KMaT},
-  url={https://openreview.net/forum?id=0aDlV2KMaT},
-  selected={true},
-}
-
 @article{dugan2025constructingefficientfactstoringmlps,
   title={Constructing Efficient Fact-Storing MLPs for Transformers},
-  author={Owen Dugan* and Roberto Garcia* and Ronny Junkins* and Jerry Liu* and Dylan Zinsley and Sabri Eyuboglu and Atri Rudra and Chris Ré},
+  author={Owen Dugan* and Roberto Garcia* and Ronny Junkins* and Jerry Liu* and Dylan Zinsley and Sabri Eyuboglu and Atri Rudra and Chris R{\'e}},
   year={2025},
   journal={In review},
   pdf={https://arxiv.org/abs/2512.00207},
@@ -22,12 +11,25 @@
   primaryClass={cs.LG},
   url={https://arxiv.org/abs/2512.00207}, 
   blog={https://hazyresearch.stanford.edu/blog/2025-11-28-mlps-p1},
+  tldr={We show how MLPs can store facts as key-value mappings within Transformers, giving an explicit, information-theoretically optimal construction that improves on prior constructions by up to two orders of magnitude. Our analysis precisely characterizes how embedding geometry and query noise limit fact-storage capacity.},
+  selected={true},
+}
+
+@inproceedings{deng2026constructing,
+  title={Constructing Machine-Precision Neural Networks with Quasi-Interpolants},
+  author={Catherine Deng* and Junmiao Hu* and Milan Rohatgi and Jerry Weihong Liu and Christopher R{\'e}},
+  booktitle={AI{\&}PDE: ICLR 2026 Workshop on AI and Partial Differential Equations},
+  year={2026},
+  note={Oral (8/113 accepted papers)},
+  pdf={https://openreview.net/pdf?id=0aDlV2KMaT},
+  url={https://openreview.net/forum?id=0aDlV2KMaT},
+  tldr={We give a closed-form construction for MLP interpolants based on quasi-interpolation theory, reaching machine precision for the first time and showing that optimization, rather than expressivity, is the main bottleneck for high-precision scientific ML.},
   selected={true},
 }
 
 @article{gonzalez2025unifyingframeworkparallelizingsequential,
   title={A Unifying Framework for Parallelizing Sequential Models with Linear Dynamical Systems}, 
-  author={Xavier Gonzalez and E. Kelly Buchanan and Hyun Dong Lee and Jerry Weihong Liu and Ke Alexander Wang and David M. Zoltowski and Christopher Ré and Scott W. Linderman},
+  author={Xavier Gonzalez and E. Kelly Buchanan and Hyun Dong Lee and Jerry Weihong Liu and Ke Alexander Wang and David M. Zoltowski and Christopher R{\'e} and Scott W. Linderman},
   year={2025},
   journal={TMLR},
   pdf={https://arxiv.org/abs/2509.21716},
@@ -47,6 +49,7 @@
   pdf={https://arxiv.org/abs/2506.23024},
   code={https://github.com/HazyResearch/bwler},
   blog={https://hazyresearch.stanford.edu/blog/2025-07-07-bwler-p1},
+  tldr={BWLer uses barycentric interpolation within physics-informed neural networks to decouple solution parameterization from derivative computation, improving accuracy by up to three orders of magnitude on benchmarks and revealing a precision-conditioning tradeoff.},
   selected={true}
 }
 
@@ -74,7 +77,6 @@
   year={2025},
   pdf={https://arxiv.org/pdf/2503.12295},
   code={https://github.com/HazyResearch/precision-ls},
-  selected={true}
 }
 
 @article{fifty2024aniketh,
@@ -109,7 +111,6 @@
   booktitle={The Symbiosis of Deep Learning and Differential Equations III @ NeurIPS},
   year={2023},
   pdf={https://openreview.net/pdf?id=FsJ2FdQ19C},
-  selected={true}
 }
 
 @techreport{liu2021non,

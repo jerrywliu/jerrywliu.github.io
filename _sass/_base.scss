@@ -787,6 +787,19 @@ footer.sticky-bottom {
         }
       }
 
+      .tldr {
+        color: var(--global-text-color);
+        font-size: 0.92rem;
+        line-height: 1.45;
+        margin-top: 0.25rem;
+        margin-bottom: 0.35rem;
+
+        .tldr-label {
+          color: var(--global-theme-color);
+          font-weight: 600;
+        }
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);
