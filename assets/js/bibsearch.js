@@ -2,11 +2,18 @@ import { highlightSearchTerm } from "./highlight-search-term.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   // actual bibsearch logic
-  const filterItems = (searchTerm) => {
+  const filterItems = (searchTerm, citationKey = null) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
 
+    const citation = citationKey ? document.getElementById(citationKey) : null;
+    if (citation) {
+      document.querySelectorAll(".bibliography > li").forEach((element) => {
+        if (!element.contains(citation)) {
+          element.classList.add("unloaded");
+        }
+      });
     // highlight-search-term
-    if (CSS.highlights) {
+    } else if (CSS.highlights) {
       const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
       if (nonMatchingElements == null) {
         return;
@@ -52,8 +59,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const updateInputField = () => {
     const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
-    document.getElementById("bibsearch").value = hashValue;
-    filterItems(hashValue);
+    const citation = document.getElementById(hashValue);
+    const citationEntry = citation?.closest(".bibliography > li");
+
+    if (citationEntry) {
+      const title = citation.querySelector(".title")?.textContent.trim() || hashValue;
+      document.getElementById("bibsearch").value = title;
+      filterItems(title.toLowerCase(), hashValue);
+      requestAnimationFrame(() => citation.scrollIntoView({ block: "start" }));
+    } else {
+      document.getElementById("bibsearch").value = hashValue;
+      filterItems(hashValue.toLowerCase());
+    }
   };
 
   // Sensitive search. Only start searching if there's been no input for 300 ms
