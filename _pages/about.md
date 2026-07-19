@@ -41,6 +41,6 @@ I'm a 4th year PhD student in the Institute of Computational & Mathematical Engi
 
 ### Research Interests
 
-My recent work studies memory in language models: how knowledge is [encoded in model weights](/publications/#dugan2025constructingefficientfactstoringmlps) and how architectural choices determine what models can remember and at what cost. As LLM workloads become more recall-intensive, I'm interested in the tradeoffs between learning **in weights** and learning **in context**, and in using these insights to build more parameter- and compute-efficient systems.
+My recent work studies memory in language models: how knowledge is [encoded in model weights](/publications/#garcia2026mlpsarehebbian) and how architectural choices determine what models can remember and at what cost. As LLM workloads become more recall-intensive, I'm interested in the tradeoffs between learning **in weights** and learning **in context**, and in using these insights to build more parameter- and compute-efficient systems.
 
 I'm also interested in machine learning for numerical tasks, especially in scientific settings such as differential equations. My previous work examined why standard architectures struggle with [high-precision numerical computation](/publications/#liu2025towards), and developed methods to improve precision in [PDEs](/publications/#liu2025bwler) and [continuous-valued regression](/publications/#deng2026constructing).

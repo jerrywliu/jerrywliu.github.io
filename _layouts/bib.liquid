@@ -259,6 +259,12 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.earlier_version %}
+        <a href="{{ entry.earlier_version }}" class="btn btn-sm z-depth-0" role="button">Previous version</a>
+      {% endif %}
+      {% if entry.latest_version %}
+        <a href="{{ entry.latest_version }}" class="btn btn-sm z-depth-0" role="button">Latest version</a>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
