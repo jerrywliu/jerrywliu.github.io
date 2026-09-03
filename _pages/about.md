@@ -37,10 +37,14 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ### About
 
-I'm a rising fifth-year PhD student in the Institute of Computational & Mathematical Engineering at Stanford, advised by [Chris Ré](https://cs.stanford.edu/people/chrismre/). I am supported by the [DOE Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). Previously, I completed my undergraduate degrees in Math and Computer Science at Duke, where I was advised by [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/). My path has been shaped by many kind and brilliant researchers, including [Atri Rudra](https://cse.buffalo.edu/faculty/atri/), [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/), Jin Yao, and [Kenny Weiss](https://kennyweiss.com/).
+I'm a rising fifth-year PhD student in the Institute of Computational & Mathematical Engineering at Stanford, advised by [Chris Ré](https://cs.stanford.edu/people/chrismre/). I am supported by the [DOE Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/profile/liu2022). Previously, I completed my undergraduate degrees in Math and Computer Science at Duke, where I was advised by [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/). My path has been shaped by many kind and brilliant researchers, including [Atri Rudra](https://cse.buffalo.edu/faculty/atri/), [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/), Jin Yao, and [Kenny Weiss](https://kennyweiss.com/).
 
 ### Research Interests
 
-My recent work studies memory in language models: how knowledge is [encoded in model weights](/publications/#garcia2026mlpsarehebbian) and how architectural choices determine what models can remember and at what cost. As LLM workloads become more recall-intensive, I'm interested in the tradeoffs between learning **in weights** and learning **in context**, and in using these insights to build more parameter- and compute-efficient systems.
+My recent work studies memory in language models: how knowledge is [encoded in model weights](/publications/#garcia2026mlpsarehebbian) and how architectural choices determine what models can remember and at what cost. I'm especially interested in the tradeoffs between learning **in weights** and learning **in context**, and in how architecture, data, and optimization interact to determine what models learn. My goal is to use these insights to build more parameter-, data-, and compute-efficient models.
+
+I'm currently developing recurrent architectures for efficient in-context memory, with a focus on recall capacity and the interaction between architecture and training.
 
 I'm also interested in machine learning for numerical tasks, especially in scientific settings such as differential equations. My previous work examined why standard architectures struggle with [high-precision numerical computation](/publications/#liu2025towards), and developed methods to improve precision in [PDEs](/publications/#liu2025bwler) and [continuous-valued regression](/publications/#deng2026constructing).
+
+*I'm currently exploring research roles beginning in late 2026 or early 2027. Please feel free to reach out by email!*
