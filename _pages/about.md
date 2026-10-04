@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+description: Jerry Liu is a 5th-year PhD student at Stanford studying memory, efficient architectures, and numerical reasoning in machine learning.
 subtitle: >
   PhD student at Stanford ICME · Hazy Research · DOE CSGF Fellow · <a href="mailto:jerrywliu@stanford.edu">jerrywliu@stanford.edu</a>
 

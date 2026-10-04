@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Jerry Liu monogram</title>
+  <circle cx="32" cy="32" r="31" fill="#5f9fc8"/>
+  <path d="M28 15v22.5C28 46 23.4 50 16.2 50c-4.8 0-8.5-2.1-10.6-5.9l6.7-4.1c.9 1.8 2.1 2.7 3.9 2.7 2.4 0 3.7-1.5 3.7-4.7V15H28Z" fill="#fff"/>
+  <path d="M34 15h8v27h14v8H34V15Z" fill="#fff"/>
+</svg>
